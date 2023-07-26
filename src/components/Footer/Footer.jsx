@@ -17,7 +17,6 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-12">
             <NavLink to="/">
-              <img src={Logo} alt="logo" width={95} />
             </NavLink>
           </div>
         </div>

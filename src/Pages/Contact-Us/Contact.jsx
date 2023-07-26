@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Helmet from "react-helmet";
 import Loader from "../../components/Loader/Loader";
+import Test from "../Findjobs/Test.json";
 /* For Server
 import { useQuery } from "@apollo/client";
 import { CONTACT } from "../../GraphQL/query";
@@ -27,8 +28,8 @@ const Contact = () => {
   }, []);
 
   const loadData = async () => {
-    const response = await fetch("https://api.apnicareer.com");
-    const data = await response.json();
+    // const response = await fetch("https://api.apnicareer.com");
+    const data = Test;
     setContact(data?.contact);
   };
   //

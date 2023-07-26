@@ -10,7 +10,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-md">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            <img src={Logo} alt="logo" />
+            My Career
           </NavLink>
           <button
             className="navbar-toggler"
@@ -19,8 +19,7 @@ const NavBar = () => {
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+            aria-label="Toggle navigation">
             <span>
               <FaBars />
             </span>
@@ -41,8 +40,7 @@ const NavBar = () => {
                     `https://play.google.com/store/apps/details?id=apnicareer.com`,
                     "_blank"
                   );
-                }}
-              >
+                }}>
                 Download App
               </button>
             </div>

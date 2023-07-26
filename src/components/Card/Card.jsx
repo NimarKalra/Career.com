@@ -60,8 +60,6 @@ const Card = (props) => {
           </div>
           <hr />
           <div className="d-flex align-items-center justify-content-between">
-            <h6>want to know more?</h6>
-            <button className="btn" onClick={() => {window.open(`${props.externalLink}`,'_blank')}}>click here</button>
           </div>
         </div>
       </div>

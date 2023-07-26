@@ -8,7 +8,7 @@ const Banner = () => {
       <div className="container">
         <div className="row text-center">
           <div className="col-lg-12">
-            <h1>easiest way to find your perfect job.</h1>
+            <h1>Develop and define the job you really want....</h1>
             <button
               className="btn darkmode-ignore"
               onClick={() => {
@@ -16,8 +16,7 @@ const Banner = () => {
                   `https://play.google.com/store/apps/details?id=apnicareer.com`,
                   "_blank"
                 );
-              }}
-            >
+              }}>
               <FaGooglePlay style={style.icon} /> Download App
             </button>
           </div>

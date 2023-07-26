@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Easiest Tool to Find Your Perfect Job Online | apnicareer.com</title>
+        <title>My Carrier</title>
       </Helmet>
       <Banner />
       <SectionOne />
